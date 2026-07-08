@@ -1,0 +1,1 @@
+Se determinó la necesidad de notificar automáticamente a los apoderados cuando un estudiante registre su asistencia. Esta notificación deberá realizarse mediante plataformas de mensajería instantánea, como WhatsApp, con el objetivo de mantener informados a los tutores en tiempo real, incrementando la seguridad y confianza en el control de asistencia.
