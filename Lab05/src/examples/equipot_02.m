@@ -1,0 +1,14 @@
+clear; clf; hold off;
+xa=-3:0.051:3;
+ya=-3:0.051:3;
+k=1.;
+q1=+1; q2=-1;
+x1=+1; x2=-1;
+y1=+1; y2=-1;
+[x,y]=meshgrid(xa,ya);
+z=k*q1./sqrt((x-x1).^2+(y-y1).^2)+k*q2./sqrt((x-x2).^2+(y-y2).^2);
+zmax=max(max(z));
+zmin=min(min(z));
+dz=(zmax-zmin)/50;
+nivel=zmin:dz:zmax;
+contour(x,y,z,nivel);
