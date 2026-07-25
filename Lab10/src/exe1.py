@@ -80,5 +80,5 @@ plt.grid(True)
 plt.tight_layout()
 plt.gca().set_aspect("equal", adjustable="box")
 
-plt.savefig("Lab11/img/lab/1.png", dpi=300)
+plt.savefig("Lab10/img/lab/1.png", dpi=300)
 plt.show()

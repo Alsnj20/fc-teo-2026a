@@ -91,5 +91,5 @@ plt.grid(True)
 plt.legend()
 
 plt.tight_layout()
-plt.savefig("Lab11/img/lab/3.png", dpi=300)
+plt.savefig("Lab10/img/lab/3.png", dpi=300)
 plt.show()

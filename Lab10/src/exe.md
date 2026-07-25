@@ -1,7 +1,4 @@
 **Laboratorio 10 – Ecuaciones de Lorenz – Grupo A-B-C-D** **Física Computacional. Ing. de Sistemas**
-
-*(Texto manuscrito: Luis Gustavo Segales Condori)*
-
 ---
 
 ### Ecuaciones de Lorenz

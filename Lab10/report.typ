@@ -34,7 +34,7 @@
   #code-block(file: "src/exe1.py", lang: "python")
 
   #align(center)[
-    #image("img/lab/1.png", width: 90%)
+    #image("img/lab/1.png", width: 80%)
     _Fig. 1: Proyecciones x-y, x-z, y-z y atractor de Lorenz_
   ]
 
@@ -42,6 +42,9 @@
   \
 
   = Proyecciones en el tiempo y trayectoria completa
+  Del mismo código del problema anterior grafique:
+  \
+  $x - $y - $t,  $y - $z - $t,  $x - $z - $t,  $x - $y - $z  utilizando la instrucción `subplot(2,2,x)`
 
   \
   *Implementación:* Se repite la misma simulación con el método de Euler, pero ahora se arman cuatro gráficos en 3D en una cuadrícula de 2x2: tres de ellos combinan dos variables con el tiempo, y el cuarto muestra la trayectoria completa en el espacio de las tres variables.
@@ -58,6 +61,7 @@
   \
 
   = Sensibilidad a las condiciones iniciales
+  Elegir una condición inicial, por ejemplo $z = 2.5$ y hacer la simulación. Luego elegimos otro valor de $z = 2.500000001$ y nuevamente hacemos la simulación. Entonces, presentar en un mismo gráfico las dos simulaciones utilizando la instrucción `subplot(3,1,x)`.
 
   \
   *Implementación:* Se corren dos simulaciones idénticas con el método de Euler, cambiando únicamente el valor inicial de una de las variables en una cantidad extremadamente pequeña. Ambas trayectorias se grafican juntas en tres gráficos apilados (uno por cada variable contra el tiempo) para poder comparar cómo evolucionan una respecto a la otra.

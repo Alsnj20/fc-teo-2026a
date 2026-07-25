@@ -74,5 +74,5 @@ ax.set_ylabel("y")
 ax.set_zlabel("z")
 
 plt.tight_layout()
-plt.savefig("Lab11/img/lab/2.png", dpi=300)
+plt.savefig("Lab10/img/lab/2.png", dpi=300)
 plt.show()

@@ -43,7 +43,7 @@
     radius: 8pt,
     spacing: 0.65em,
     clip: false,
-    text-size: 7pt,
+    text-size: 8pt,
   ),
 )
 
